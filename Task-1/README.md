@@ -27,5 +27,6 @@ jupyter notebook decision_tree.ipynb
 ```
 
 ## 📊 Output
-![image](https://github.com/user-attachments/assets/08e00683-7b24-4508-aa78-a15ba198f644)
+![decision_tree](https://github.com/user-attachments/assets/9bfaed8d-d0f9-434a-93d6-58467ae0d0bc)
+
 
