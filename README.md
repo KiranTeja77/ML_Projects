@@ -21,14 +21,3 @@ This repository includes all four tasks completed as part of the internship, alo
 
 ---
 
-## 🛠️ Technologies Used
-
-- Python
-- Jupyter Notebook
-- Scikit-learn
-- TensorFlow / Keras
-- NLTK
-- Surprise (for recommendation systems)
-- Pandas, Matplotlib, Seaborn
-
----
