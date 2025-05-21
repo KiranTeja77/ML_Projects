@@ -1,26 +1,31 @@
 # 💬 Task 2: Sentiment Analysis with TF-IDF & Logistic Regression
 
 ## 📌 Objective
-Perform sentiment classification on customer reviews using **TF-IDF Vectorization** and **Logistic Regression**.
+Perform sentiment classification on iPhone customer reviews using **TF-IDF Vectorization** and **Logistic Regression**.
 
 ## 📂 Dataset
-- `reviews.csv` (contains `text` and `label` columns)
+- `iphone.csv` (contains `reviewDescription` and `ratingScore` columns)
 
 ## ⚙️ Technologies Used
 - Python
 - scikit-learn
 - pandas
-- nltk
+- matplotlib
+- seaborn
 
 ## 🧪 Steps Performed
-1. Preprocessed review text (cleaning, stopword removal).
-2. Transformed text using TF-IDF vectorizer.
-3. Trained a Logistic Regression model.
-4. Evaluated model using accuracy and classification report.
+1. Sampled 1000 reviews from the dataset to optimize performance.
+2. Converted `ratingScore` into sentiment labels:
+   - Ratings 4–5 → Positive
+   - Ratings 1–2 → Negative
+   - Rating 3 → Neutral (removed)
+3. Transformed review text (`reviewDescription`) using TF-IDF vectorizer.
+4. Trained a Logistic Regression model using the `saga` solver.
+5. Evaluated the model using accuracy, classification report, and confusion matrix.
 
 ## ▶️ How to Run
 ```bash
-jupyter notebook sentiment_analysis.ipynb
+jupyter notebook sentiment_analysis_iphone.ipynb
 ```
 
 ## 📊 Output
