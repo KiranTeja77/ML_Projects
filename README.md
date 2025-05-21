@@ -6,6 +6,7 @@ Company: CodTech IT Solutions
 Domain: Machine Learning
 Duration: 4 Weeks
 Mentor: Neela Santhosh Kumar
+
 👤 Intern Information
-Name: Madhira Krishna Srinivas
-Intern ID: CT04DN92
+Name: Paturi Kiran Teja
+Intern ID: CT04DN277
