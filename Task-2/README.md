@@ -24,6 +24,5 @@ jupyter notebook sentiment_analysis.ipynb
 ```
 
 ## 📊 Output
-- Accuracy score
-- Classification report
-- Sample predictions
+![sentiment_analysis](https://github.com/user-attachments/assets/96edde9a-35cf-46ac-a368-a0cf14810740)
+
