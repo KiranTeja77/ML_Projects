@@ -27,6 +27,5 @@ jupyter notebook decision_tree.ipynb
 ```
 
 ## 📊 Output
-- Tree diagram
-- Accuracy score
-- Classification report
+![image](https://github.com/user-attachments/assets/08e00683-7b24-4508-aa78-a15ba198f644)
+
