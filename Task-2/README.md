@@ -25,7 +25,7 @@ Perform sentiment classification on iPhone customer reviews using **TF-IDF Vecto
 
 ## How to Run
 ```bash
-jupyter notebook sentiment_analysis_iphone.ipynb
+jupyter notebook sentiment_analysis.ipynb
 ```
 
 ## Output
