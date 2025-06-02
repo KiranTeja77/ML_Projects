@@ -60,7 +60,8 @@ The dataset consists of 150 samples, with 50 examples for each class. It is perf
 - **Accuracy Score**: Provides a quick performance overview on unseen test data.
 - **Classification Report**: Offers metrics like precision, recall, and F1-score for each class.
 - **Tree Visualization**: A graphical representation of the decision-making process based on feature splits.
-- 
+- ![image](https://github.com/user-attachments/assets/1e75af8b-2968-4405-8fa5-d5a6b4e22cd0)
+
 
 ## 📌 Summary
 
