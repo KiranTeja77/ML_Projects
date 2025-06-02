@@ -40,6 +40,8 @@ Ensure `iphone.csv` is in the same directory.
 - Accuracy score
 - Classification report (precision, recall, F1)
 - Confusion matrix heatmap
+- ![image](https://github.com/user-attachments/assets/4bae455f-026b-43fc-b9da-87348a0b4562)
+
 
 ## Summary
 
