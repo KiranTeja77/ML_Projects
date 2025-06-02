@@ -1,27 +1,41 @@
-# 🎯 Task 4: Movie Recommendation System
+#  Task 4: Movie Recommendation System (Item-Based Filtering)
 
-## 📌 Objective
-Build a **Recommendation System** using **Collaborative Filtering (SVD)** with the **MovieLens 100k** dataset.
+## Objective
 
-## 📂 Dataset
-- `u.data` from [MovieLens 100k](https://grouplens.org/datasets/movielens/100k/)
-- Format: `userID itemID rating timestamp`
+This task involves building a simple recommendation system using collaborative filtering. The model uses item-based cosine similarity to recommend movies that are similar to a given one based on user ratings. It avoids external dependencies like `scikit-surprise` and uses Pandas and scikit-learn instead.
 
-## ⚙️ Technologies Used
+##  Dataset
+
+- **File**: `ratings.csv`
+- **Columns**: `userId`, `movieId`, `rating`
+- Small mock dataset simulating user-movie interactions.
+
+##  Technologies Used
+
 - Python
-- scikit-surprise
+- pandas
+- scikit-learn (cosine_similarity)
 
-## 🧪 Steps Performed
-1. Loaded dataset using `surprise` library.
-2. Trained a matrix factorization model using SVD.
-3. Evaluated performance using RMSE.
-4. Generated top-N recommendations for users.
+## Steps Performed
 
-## ▶️ How to Run
+1. Loaded ratings data into a Pandas DataFrame.
+2. Built a user-item matrix (users as rows, movies as columns).
+3. Calculated cosine similarity between items (movies).
+4. Created a function to recommend top 5 similar movies to a given `movieId`.
+
+##  How to Run
+
 ```bash
-jupyter notebook recommender.ipynb
+jupyter notebook recommendation_system.ipynb
 ```
 
-## 📊 Output
-- RMSE score
-- List of top 5 movie recommendations for selected users
+Ensure `ratings.csv` is in the same folder.
+
+##  Output
+
+- List of top 5 similar movies for a given movie ID
+- Cosine similarity scores
+
+##  Summary
+
+This task demonstrates a fundamental item-based collaborative filtering technique for building a recommender system. It’s lightweight, interpretable, and forms the basis for more advanced methods like matrix factorization or neural recommender systems.
