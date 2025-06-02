@@ -24,7 +24,7 @@ Build a **Convolutional Neural Network (CNN)** to classify handwritten digits us
 ## How to Run
 
 ```bash
-jupyter notebook cnn_mnist.ipynb
+jupyter notebook CNN_image_classification.ipynb
 ```
 
 ## Output
