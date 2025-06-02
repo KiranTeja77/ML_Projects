@@ -44,6 +44,7 @@ No external data required — MNIST is automatically downloaded via Keras.
 - Training & validation accuracy/loss per epoch
 - Final test accuracy
 - Model summary
+- ![Image](https://github.com/user-attachments/assets/6dff5bfd-580d-4e4d-83d7-9edba6cbbb8c)
 
 ## Summary
 
