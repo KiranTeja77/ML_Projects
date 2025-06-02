@@ -35,7 +35,6 @@ Ensure `ratings.csv` is in the same folder.
 
 - List of top 5 similar movies for a given movie ID
 - Cosine similarity scores
-- ![Image](https://github.com/user-attachments/assets/6dff5bfd-580d-4e4d-83d7-9edba6cbbb8c)
 
 ##  Summary
 
